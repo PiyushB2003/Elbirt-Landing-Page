@@ -1,8 +1,9 @@
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   return (
-    <div>
-      Hello world
+    <div className="w-screen min-h-screen">
+      <Header />
     </div>
   );
 }
