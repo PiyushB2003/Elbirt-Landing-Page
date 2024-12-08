@@ -2,14 +2,13 @@ import Image from "next/image"
 
 const Header = () => {
     return (
-        <div className="w-full h-[71px]">
-            <div className="absolute left-[304.79px]">
+        <div className="w-full h-[50px] flex items-center">
+            <div className="absolute left-[200px]">
                 <Image 
                     src="/images/elbrit-logo.png" 
                     alt="elbrit-logo" 
-                    width={313.26} 
-                    height={61} 
-                    className=""
+                    width={200} 
+                    height={61}
                 />
             </div>
         </div>
