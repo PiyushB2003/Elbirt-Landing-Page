@@ -5,7 +5,7 @@ interface Hero {
     image: string;
 }
 
-export let HeroData: Hero[] = [
+export const HeroData: Hero[] = [
     {
         id: 1,
         title: "Vitamins",

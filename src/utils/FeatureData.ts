@@ -5,7 +5,7 @@ interface Feature {
     image: string;
 }
 
-export let FeatureData: Feature[] = [
+export const FeatureData: Feature[] = [
     {
         id: 1,
         title: "Clinically Studied",

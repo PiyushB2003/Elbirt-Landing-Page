@@ -5,7 +5,7 @@ interface Footer {
     image: string;
 }
 
-export let FooterData: Footer[] = [
+export const FooterData: Footer[] = [
     {
         id: 1,
         type: "Phone Number",

@@ -5,7 +5,7 @@ interface Ingredients {
 }
 
 
-export let IngredientsData: Ingredients[] = [
+export const IngredientsData: Ingredients[] = [
     {
         id: 1,
         title: "Vitamin C",
