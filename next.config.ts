@@ -14,6 +14,9 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  images: {
+    unoptimized: false,
+  },
 };
 
 export default nextConfig;
