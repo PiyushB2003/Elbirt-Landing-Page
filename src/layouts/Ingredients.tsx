@@ -27,7 +27,7 @@ const Ingredients = () => {
                     })
                 }
                 <div className="flex-1">
-                    <img src="/images/shapes.jpeg" alt="shape" className="w-[80px] h-[10px] basis-[5%]" />
+                    <img src="/images/shapes.jpeg" alt="shape" className="w-full h-full basis-[5%]" />
                 </div>
             </div>
         </div>
