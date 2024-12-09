@@ -9,6 +9,8 @@ const Header = () => {
                     alt="elbrit-logo" 
                     width={200} 
                     height={61}
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,..."
                 />
             </div>
         </div>

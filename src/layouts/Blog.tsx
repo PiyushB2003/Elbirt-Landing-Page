@@ -8,12 +8,12 @@ const Blog = () => {
 
             <div className="flex gap-x-8 px-24 justify-center flex-wrap my-5">
                 <div className="flex flex-col space-y-4">
-                    <div className="bg-white rounded-lg shadow-lg w-full h-[340px] bg-[url('/images/news-1.jpeg')] bg-no-repeat bg-cover">
+                    <div className="bg-white rounded-lg shadow-lg min-w-full min-h-[340px] bg-[url('/images/news-1.jpeg')] bg-no-repeat bg-cover">
                         <div className="bg-[#003569] inline-block text-xs py-1 px-4 rounded-r-full text-white relative top-3 right-2">
                             20 APR
                         </div>
                     </div>
-                    <div className="bg-white rounded-lg shadow-lg w-[265px] h-36 bg-[url('/images/news-2.jpeg')] bg-no-repeat bg-center bg-cover">
+                    <div className="bg-white rounded-lg shadow-lg min-w-[265px] min-h-36 bg-[url('/images/news-2.jpeg')] bg-no-repeat bg-center bg-cover">
                         <div className="bg-[#003569] inline-block text-xs top-3 py-1 px-4 rounded-r-full text-white relative right-2">
                             20 APR
                         </div>

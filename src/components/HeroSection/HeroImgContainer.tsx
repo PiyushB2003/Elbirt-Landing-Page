@@ -9,6 +9,8 @@ const HeroImgContainer = () => {
         width={310}
         height={330}
         className=" object-cover object-center bg-no-repeat absolute right-3 bottom-[45px]"
+        placeholder="blur"
+        blurDataURL="data:image/jpeg;base64,..."
       />
     </div>
   );
