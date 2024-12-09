@@ -15,8 +15,6 @@ const Contact = () => {
             width={40}
             height={40}
             className="mx-3"
-            placeholder="blur"
-            blurDataURL="data:image/jpeg;base64,..."
           />
           <div className="mx-3">
             <h4 className="text-[#ffffff]">{item.type}</h4>
