@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { FeatureData } from "@/utils/FeatureData";
 
 const Feature = () => {
@@ -8,13 +8,16 @@ const Feature = () => {
         {FeatureData.map((item) => (
           <div key={item.id} className="flex flex-col items-center gap-2">
             <div className="w-[80px] h-[80px] bg-white rounded-full flex items-center justify-center">
-              <Image
+              <img
                 src={item.image}
                 alt={item.title}
-                width={item.id === 1 ? 22 : item.id === 5 ? 35 : 30}
-                height={item.id === 1 ? 22 : item.id === 5 ? 35 : 30}
-                placeholder="blur"
-                blurDataURL="data:image/jpeg;base64,..."
+                className={`mx-3 ${
+                  item.id === 1
+                    ? "w-[22px] h-[22px]"
+                    : item.id === 5
+                    ? "w-[35px] h-[35px]"
+                    : "w-[30px] h-[30px]"
+                }`}
               />
             </div>
             <div>

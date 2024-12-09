@@ -1,6 +1,4 @@
 import { IngredientsData } from "@/utils/IngredientsData";
-import Image from "next/image";
-
 const Ingredients = () => {
         return (
         <div className="max-w-6xl mx-auto px-4 py-8">
@@ -29,13 +27,7 @@ const Ingredients = () => {
                     })
                 }
                 <div className="flex-1">
-                    <Image
-                        src="/images/shapes.jpeg"
-                        alt="shape"
-                        width={80}
-                        height={10}
-                        className="basis-[5%]"
-                    />
+                    <img src="/images/shapes.jpeg" alt="shape" className="w-[80px] h-[10px] basis-[5%]" />
                 </div>
             </div>
         </div>
